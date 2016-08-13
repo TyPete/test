@@ -11,23 +11,6 @@
 
         <div id="displayText">Test</div>
 
-        <script>
-            var greeting = "Hello World";
-
-            var displayText = document.getElementById("displayText");
-            var goButton = document.getElementById("goButton");
-
-            var eventHandler = function eventHandler(){
-                displayText.innerHTML = greeting;
-            }
-
-            //goButton.addEventListener("click", eventHandler);
-
-            goButton.addEventListener("click", function(){
-               var location = document.getElementById("inputText").value;
-               displayText.innerHTML = "Hello, " + location + "!";
-            });
-
-        </script>
+        <script src="button.js"></script>
         </body>
 </html>
