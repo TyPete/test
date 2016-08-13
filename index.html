@@ -12,11 +12,16 @@
         <div id="displayText">Test</div>
 
         <script>
-            var isTest = true;
-           // alert("Hello, Web");
-           if(isTest){
-               console.log("Hello, Web");
-           }
+            var greeting = "Hello World";
+
+            var diswplayText = document.getElementById("displayText");
+            var goButton = document.getElementById("goButton");
+
+            goButton.addEventListner("click". function(){
+                displayText.innerHTML = greeting;
+            });
+
+
             //console.log("Hello there Web");
         </script>
         </body>
