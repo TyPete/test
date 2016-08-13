@@ -17,12 +17,16 @@
             var diswplayText = document.getElementById("displayText");
             var goButton = document.getElementById("goButton");
 
-            goButton.addEventListner("click". function(){
+            var eventHandler = function eventHandler(){
                 displayText.innerHTML = greeting;
-            });
+            }
 
+            goButton.assEventListner("click", eventHandler);
 
-            //console.log("Hello there Web");
+            //goButton.addEventListner("click". function(){
+            //    displayText.innerHTML = greeting;
+            //});
+
         </script>
         </body>
 </html>
