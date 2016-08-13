@@ -21,11 +21,12 @@
                 displayText.innerHTML = greeting;
             }
 
-            goButton.addEventListener("click", eventHandler);
+            //goButton.addEventListener("click", eventHandler);
 
-            //goButton.addEventListener("click". function(){
-            //    displayText.innerHTML = greeting;
-            //});
+            goButton.addEventListener("click". function(){
+               var location = document.getElementById("inputText").value;
+               displayText.innerHTML = "Hello, " + location + "!";
+            });
 
         </script>
         </body>
